@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehedi | Web Developer Portfolio</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --accent: #0070f3;
+            --secondary: #666666;
+            --border: #eaeaea;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+        }
+
+        p.subtitle {
+            color: var(--secondary);
+            font-size: 1.1rem;
+        }
+
+        .links {
+            margin-top: 1rem;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--secondary);
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+
+        .project-card {
+            display: block;
+            padding: 1rem;
+            margin: 0 -1rem;
+            border-radius: 8px;
+            transition: background 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .project-card:hover {
+            background: #f9f9f9;
+            text-decoration: none;
+        }
+
+        .project-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.2rem;
+            color: var(--text);
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        footer {
+            margin-top: 5rem;
+            font-size: 0.8rem;
+            color: var(--secondary);
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            body { padding: 1.5rem 1rem; }
+            h1 { font-size: 1.75rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Mehedi</h1>
+            <p class="subtitle">Web Developer & Designer</p>
+            <div class="links">
+                <a href="https://github.com/mehediforsure" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Selected Work</h2>
+
+            <a href="https://roygbivdhk.vercel.app/" class="project-card" target="_blank" rel="noopener">
+                <h3>ROYGBIV DHK</h3>
+                <p>A curated visual experience. Built with modern web standards.</p>
+            </a>
+
+            <a href="https://halfbakedbandsite.vercel.app/" class="project-card" target="_blank" rel="noopener">
+                <h3>Half Baked Band</h3>
+                <p>Official website for the band. Focus on media and aesthetics.</p>
+            </a>
+
+            <a href="https://mehediforsure.neocities.org/" class="project-card" target="_blank" rel="noopener">
+                <h3>Neocities Personal Space</h3>
+                <p>Experimental web design and personal creative hub.</p>
+            </a>
+        </section>
+
+        <footer>
+            &copy; <script>document.write(new Date().getFullYear())</script> — Mehedi
+        </footer>
+    </div>
+
+</body>
+</html>
+
